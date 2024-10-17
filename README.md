@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:17/10/2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,171 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .book-cover {
+      width: 500px;
+      height: 700px;
+      background-color: #00ffbf;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .insight {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 15px;
+      font-weight: bold;
+      color: azure;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+      position: absolute;
+      width: 80%;
+      left: 10%;
+    }
+
+    .line1 {
+      top: 40px;
+    }
+
+    .title1 {
+      position: absolute;
+      top: 180px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 32px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .subtitle1 {
+      position: absolute;
+      top: 470px;
+      left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .subtitle2,
+    .subtitle3 {
+      position: absolute;
+      left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .subtitle2 {
+      top: 520px;
+    }
+
+    .subtitle3 {
+      top: 560px;
+    }
+
+    .line2 {
+      top: 480px;
+    }
+
+    .line3 {
+      bottom: 38px;
+    }
+
+    .author {
+      position: absolute;
+      bottom: 5px;
+      right: 20px;
+      font-size: 18px;
+      color: whitesmoke;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .end {
+      position: absolute;
+      bottom: 5px;
+      left: 50px;
+      font-size: 18px;
+      color: white;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .mypic {
+      position: relative;
+      top: 550px;
+      left: 370px;
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    .mypic img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="book-cover">
+    <img src="c:\Users\jafil\Downloads\tech.png" alt="Book Cover Image" class="image">
+    <div class="insight">Basics of Artificial Intelligence</div>
+    <div class="line1"><hr style="color:rgba(133, 192, 237, 0.877)"></div>
+    <div class="title1">Unsupervised Learning</div>
+    <div class="subtitle1">An Exploration of Machine Learning Methods</div>
+    <div class="line2"></div> 
+    <div class="subtitle2">Diving into Machine Learning Methods</div>
+    <div class="subtitle3">Machine Learning Odyssey</div>
+    <div class="line3"><hr style="color:rgb(143, 213, 236)"></div>
+    <div class="mypic"><img src="c:\Users\jafil\Pictures\sajith.png" alt="Author's Picture"></div>
+    <div class="end">SEC'27</div>
+    <div class="author">SAJITH AHAMED F</div>
+  </div>
+</body>
+
+</html>
+
+```
 
 ## OUTPUT:
+![web exp 5](https://github.com/user-attachments/assets/c94d75b1-da51-4501-8ce5-a93fa0b0ff6c)
 
 
 ## RESULT:
