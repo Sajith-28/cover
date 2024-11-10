@@ -197,8 +197,8 @@ Reg No: 212223240144
 ```
 
 ## OUTPUT:
-![web exp 5](https://github.com/user-attachments/assets/c94d75b1-da51-4501-8ce5-a93fa0b0ff6c)
 
+![Screenshot 2024-11-10 200449](https://github.com/user-attachments/assets/3f1242ad-278b-4f78-8602-1170fd61c47f)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
